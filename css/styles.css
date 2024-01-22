@@ -1,0 +1,33 @@
+
+html { background-color: #e5f7d5; }
+
+body {
+  background-color: white;
+  margin: 100px auto;
+  padding: 40px 90px;
+  max-width: 1440px;
+}
+
+h1 {
+    font-family: 'Arvo', Georgia, Times, serif;
+    font-size: 59px;
+    line-height: 70px;
+}
+
+p, li {
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+/* header */
+
+/* nav */
+
+/* main */
+
+/* section */
+
+/* article */
+
+/* footer */
