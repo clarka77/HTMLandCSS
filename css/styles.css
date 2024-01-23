@@ -1,5 +1,5 @@
 
-/* site wide elements */
+/* || site wide elements */
 html { background-color: #e5f7d5; }
 body {
   background-color: white;
@@ -68,7 +68,7 @@ a:hover { text-decoration: underline; }
     fill: #E5F7D5;
 }
 
-/* header */
+/* || header */
 @keyframes float {
 	0% {
 		box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
@@ -107,7 +107,7 @@ a:hover { text-decoration: underline; }
 	height: auto;
 }
 
-/* nav */
+/* || nav */
 nav {
   display: grid;
   height: 90px;
@@ -137,9 +137,9 @@ li {
   }
 }
 
-/* main */
+/* || main */
 
-/* section */
+/* || section */
 section {
   position: relative;
   top: 0;
@@ -193,7 +193,7 @@ button:hover {
   }
 }
 
-/* article */
+/* || article */
 .articles {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -218,7 +218,7 @@ article > p { text-align: center; }
   article { padding: 0 0 10px 0; }
 }
 
-/* footer */
+/* || footer */
 footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
