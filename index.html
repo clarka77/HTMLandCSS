@@ -20,7 +20,7 @@
     <meta name="author" content="Clark Alford">
     <meta property="og:title" content="Lucky Shrub - Official Website">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="/data/little-lemon-logos/Asset-16@4x.png"><!-- 1200x630 -->
+    <meta property="og:image" content="images/og-image.png"><!-- 1200x630 -->
     <meta property="og:url" content="https://codepen.io/clarka77/pen/NWJjmzo">
     <meta property="og:locate" content="en">
     <meta property="og:site_name" content="Lucky Shrub">
@@ -47,47 +47,79 @@
 		<link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <header>
-      <div>
-        <img >
-      </div>
+    <div class="custom-shape-divider-top-1705944934">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M649.97 0L550.03 0 599.91 54.12 649.97 0z" class="shape-fill"></path>
+      </svg>
+  </div>
+    <header class="container">
+      <div class="avatar">
+		    <img src="https://res.cloudinary.com/dp53lsbqb/image/upload/v1705956309/logo_wyyttx.png" alt="Lucky Shrub animated logo" />
+	    </div>
     </header>
     <nav>
       <ul>
-        <li>Home</li>
-        <li>Products</li>
-        <li>Contact</li>
-        <li>Info</li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="">Products</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">Info</a></li>
       </ul>
     </nav>
     <main>
-      <section>
-        <img >
-        <h1></h1>
-        <p></p>
+      <section id="cta">
+        <div class="cta-container">
+          <h1 class="title">Hire a Landscape Designer</h1>
+          <p>
+            Looking to hire a landscape designer but not sure where to start? Read our handy guide to finding the right professional.
+          </p>
+          <button>Get an Estimate Now</button>
+        </div>
+        <!-- Background Image -->
+        <picture>
+          <source media="(max-width: 600px)" srcset="https://res.cloudinary.com/dp53lsbqb/image/upload/v1705943716/promotion-m_wvvjsq.jpg">
+          <source media="(min-width: 601px)" srcset="https://res.cloudinary.com/dp53lsbqb/image/upload/v1705943716/promotion_f4mutv.jpg">
+          <img aria-hidden="true" loading="lazy" decoding="async" src="https://res.cloudinary.com/dp53lsbqb/image/upload/v1705943716/promotion_f4mutv.jpg" alt="scenic road with trees on the sides" width="2432" height="1000">
+        </picture>
       </section>
-      <article>
-        <img >
-        <h2></h2>
-        <p></p>
-      </article>
-      <article>
-        <img >
-        <h2></h2>
-        <p></p>
-      </article>
-      <article>
-        <img >
-        <h2></h2>
-        <p></p>
-      </article>
+      <div class="articles">
+        <article>
+          <picture>
+            <source media="(max-width: 600px)" srcset="https://res.cloudinary.com/dp53lsbqb/image/upload/v1705943717/article1-m_aiyuvp.jpg">
+            <source media="(min-width: 601px)" srcset="https://res.cloudinary.com/dp53lsbqb/image/upload/v1705943717/article1_nqdzuk.jpg">
+            <img aria-hidden="true" loading="lazy" decoding="async" src="https://res.cloudinary.com/dp53lsbqb/image/upload/v1705943717/article1_nqdzuk.jpg" alt="garden cathedral adorned with flowers" width="1000" height="1000">
+          </picture>
+          <h2>Royal Flower Arrangements</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </article>
+        <article>
+          <picture>
+            <source media="(max-width: 600px)" srcset="https://res.cloudinary.com/dp53lsbqb/image/upload/v1705943716/article2-m_wgfclc.jpg">
+            <source media="(min-width: 601px)" srcset="https://res.cloudinary.com/dp53lsbqb/image/upload/v1705943717/article2_wpe1nz.jpg">
+            <img aria-hidden="true" loading="lazy" decoding="async" src="https://res.cloudinary.com/dp53lsbqb/image/upload/v1705943717/article2_wpe1nz.jpg" alt="garden basket full of vegetables" width="1000" height="1000">
+          </picture>
+          <h2>A Garden You can Eat</h2>
+          <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+        </article>
+        <article>
+          <picture>
+            <source media="(max-width: 600px)" srcset="https://res.cloudinary.com/dp53lsbqb/image/upload/v1705943716/article3-m_lteva6.jpg">
+            <source media="(min-width: 601px)" srcset="https://res.cloudinary.com/dp53lsbqb/image/upload/v1705943717/article3_cio6fj.jpg">
+            <img aria-hidden="true" loading="lazy" decoding="async" src="https://res.cloudinary.com/dp53lsbqb/image/upload/v1705943717/article3_cio6fj.jpg" alt="flower arrangement in shapes of a heart" width="1000" height="1000">
+          </picture>
+          <h2>We Love Flowers</h2>
+          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+        </article>
+      </div>
     </main>
     <footer>
       <div>
-
+        <img class="footer-logo-1" src="https://res.cloudinary.com/dp53lsbqb/image/upload/v1705943716/footer-logo-1_tkywop.png" title="Lucky Shrub" alt="Lucky Shrub logo icon">
+        <img class="footer-logo-2" src="https://res.cloudinary.com/dp53lsbqb/image/upload/v1705943716/footer-logo-2_xr5lr6.png" title="Lucky Shrub" alt="Lucky Shrub logo">
       </div>
-      <div>
-
+      <div class="copyright">
+        <span>
+          Copyright &copy; <script>document.write(new Date().getFullYear())</script>  All Rights Reserved by <a href="https://codepen.io/clarka77" target="_blank">Clark A</a>
+        </span>
       </div>
     </footer>
   </body>
